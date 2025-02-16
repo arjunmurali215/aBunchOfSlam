@@ -129,6 +129,70 @@ icp_svd/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/icp_svd.dir/build.make CMakeFiles/icp_svd.dir/build
 .PHONY : icp_svd/fast
 
+#=============================================================================
+# Target rules for targets named icp_gnm_point_to_point
+
+# Build rule for target.
+icp_gnm_point_to_point: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 icp_gnm_point_to_point
+.PHONY : icp_gnm_point_to_point
+
+# fast build rule for target.
+icp_gnm_point_to_point/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/icp_gnm_point_to_point.dir/build.make CMakeFiles/icp_gnm_point_to_point.dir/build
+.PHONY : icp_gnm_point_to_point/fast
+
+src/eigen.o: src/eigen.cpp.o
+.PHONY : src/eigen.o
+
+# target to build an object file
+src/eigen.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/icp_svd.dir/build.make CMakeFiles/icp_svd.dir/src/eigen.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/icp_gnm_point_to_point.dir/build.make CMakeFiles/icp_gnm_point_to_point.dir/src/eigen.cpp.o
+.PHONY : src/eigen.cpp.o
+
+src/eigen.i: src/eigen.cpp.i
+.PHONY : src/eigen.i
+
+# target to preprocess a source file
+src/eigen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/icp_svd.dir/build.make CMakeFiles/icp_svd.dir/src/eigen.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/icp_gnm_point_to_point.dir/build.make CMakeFiles/icp_gnm_point_to_point.dir/src/eigen.cpp.i
+.PHONY : src/eigen.cpp.i
+
+src/eigen.s: src/eigen.cpp.s
+.PHONY : src/eigen.s
+
+# target to generate assembly for a file
+src/eigen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/icp_svd.dir/build.make CMakeFiles/icp_svd.dir/src/eigen.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/icp_gnm_point_to_point.dir/build.make CMakeFiles/icp_gnm_point_to_point.dir/src/eigen.cpp.s
+.PHONY : src/eigen.cpp.s
+
+src/icp_gnm_point_to_point.o: src/icp_gnm_point_to_point.cpp.o
+.PHONY : src/icp_gnm_point_to_point.o
+
+# target to build an object file
+src/icp_gnm_point_to_point.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/icp_gnm_point_to_point.dir/build.make CMakeFiles/icp_gnm_point_to_point.dir/src/icp_gnm_point_to_point.cpp.o
+.PHONY : src/icp_gnm_point_to_point.cpp.o
+
+src/icp_gnm_point_to_point.i: src/icp_gnm_point_to_point.cpp.i
+.PHONY : src/icp_gnm_point_to_point.i
+
+# target to preprocess a source file
+src/icp_gnm_point_to_point.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/icp_gnm_point_to_point.dir/build.make CMakeFiles/icp_gnm_point_to_point.dir/src/icp_gnm_point_to_point.cpp.i
+.PHONY : src/icp_gnm_point_to_point.cpp.i
+
+src/icp_gnm_point_to_point.s: src/icp_gnm_point_to_point.cpp.s
+.PHONY : src/icp_gnm_point_to_point.s
+
+# target to generate assembly for a file
+src/icp_gnm_point_to_point.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/icp_gnm_point_to_point.dir/build.make CMakeFiles/icp_gnm_point_to_point.dir/src/icp_gnm_point_to_point.cpp.s
+.PHONY : src/icp_gnm_point_to_point.cpp.s
+
 src/icp_svd.o: src/icp_svd.cpp.o
 .PHONY : src/icp_svd.o
 
@@ -153,6 +217,33 @@ src/icp_svd.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/icp_svd.dir/build.make CMakeFiles/icp_svd.dir/src/icp_svd.cpp.s
 .PHONY : src/icp_svd.cpp.s
 
+src/pangolin.o: src/pangolin.cpp.o
+.PHONY : src/pangolin.o
+
+# target to build an object file
+src/pangolin.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/icp_svd.dir/build.make CMakeFiles/icp_svd.dir/src/pangolin.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/icp_gnm_point_to_point.dir/build.make CMakeFiles/icp_gnm_point_to_point.dir/src/pangolin.cpp.o
+.PHONY : src/pangolin.cpp.o
+
+src/pangolin.i: src/pangolin.cpp.i
+.PHONY : src/pangolin.i
+
+# target to preprocess a source file
+src/pangolin.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/icp_svd.dir/build.make CMakeFiles/icp_svd.dir/src/pangolin.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/icp_gnm_point_to_point.dir/build.make CMakeFiles/icp_gnm_point_to_point.dir/src/pangolin.cpp.i
+.PHONY : src/pangolin.cpp.i
+
+src/pangolin.s: src/pangolin.cpp.s
+.PHONY : src/pangolin.s
+
+# target to generate assembly for a file
+src/pangolin.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/icp_svd.dir/build.make CMakeFiles/icp_svd.dir/src/pangolin.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/icp_gnm_point_to_point.dir/build.make CMakeFiles/icp_gnm_point_to_point.dir/src/pangolin.cpp.s
+.PHONY : src/pangolin.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -161,10 +252,20 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... icp_gnm_point_to_point"
 	@echo "... icp_svd"
+	@echo "... src/eigen.o"
+	@echo "... src/eigen.i"
+	@echo "... src/eigen.s"
+	@echo "... src/icp_gnm_point_to_point.o"
+	@echo "... src/icp_gnm_point_to_point.i"
+	@echo "... src/icp_gnm_point_to_point.s"
 	@echo "... src/icp_svd.o"
 	@echo "... src/icp_svd.i"
 	@echo "... src/icp_svd.s"
+	@echo "... src/pangolin.o"
+	@echo "... src/pangolin.i"
+	@echo "... src/pangolin.s"
 .PHONY : help
 
 

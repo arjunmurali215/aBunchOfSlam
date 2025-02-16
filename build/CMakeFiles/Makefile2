@@ -64,10 +64,12 @@ CMAKE_BINARY_DIR = /home/geniusdegenerate/aBunchOfSlam/build
 
 # The main recursive "all" target.
 all: CMakeFiles/icp_svd.dir/all
+all: CMakeFiles/icp_gnm_point_to_point.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/icp_svd.dir/codegen
+codegen: CMakeFiles/icp_gnm_point_to_point.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -76,6 +78,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/icp_svd.dir/clean
+clean: CMakeFiles/icp_gnm_point_to_point.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -85,12 +88,12 @@ clean: CMakeFiles/icp_svd.dir/clean
 CMakeFiles/icp_svd.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/icp_svd.dir/build.make CMakeFiles/icp_svd.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/icp_svd.dir/build.make CMakeFiles/icp_svd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/geniusdegenerate/aBunchOfSlam/build/CMakeFiles --progress-num=1,2 "Built target icp_svd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/geniusdegenerate/aBunchOfSlam/build/CMakeFiles --progress-num=5,6,7,8 "Built target icp_svd"
 .PHONY : CMakeFiles/icp_svd.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/icp_svd.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/geniusdegenerate/aBunchOfSlam/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/geniusdegenerate/aBunchOfSlam/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/icp_svd.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/geniusdegenerate/aBunchOfSlam/build/CMakeFiles 0
 .PHONY : CMakeFiles/icp_svd.dir/rule
@@ -108,6 +111,37 @@ CMakeFiles/icp_svd.dir/codegen:
 CMakeFiles/icp_svd.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/icp_svd.dir/build.make CMakeFiles/icp_svd.dir/clean
 .PHONY : CMakeFiles/icp_svd.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/icp_gnm_point_to_point.dir
+
+# All Build rule for target.
+CMakeFiles/icp_gnm_point_to_point.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/icp_gnm_point_to_point.dir/build.make CMakeFiles/icp_gnm_point_to_point.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/icp_gnm_point_to_point.dir/build.make CMakeFiles/icp_gnm_point_to_point.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/geniusdegenerate/aBunchOfSlam/build/CMakeFiles --progress-num=1,2,3,4 "Built target icp_gnm_point_to_point"
+.PHONY : CMakeFiles/icp_gnm_point_to_point.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/icp_gnm_point_to_point.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/geniusdegenerate/aBunchOfSlam/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/icp_gnm_point_to_point.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/geniusdegenerate/aBunchOfSlam/build/CMakeFiles 0
+.PHONY : CMakeFiles/icp_gnm_point_to_point.dir/rule
+
+# Convenience name for target.
+icp_gnm_point_to_point: CMakeFiles/icp_gnm_point_to_point.dir/rule
+.PHONY : icp_gnm_point_to_point
+
+# codegen rule for target.
+CMakeFiles/icp_gnm_point_to_point.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/icp_gnm_point_to_point.dir/build.make CMakeFiles/icp_gnm_point_to_point.dir/codegen
+.PHONY : CMakeFiles/icp_gnm_point_to_point.dir/codegen
+
+# clean rule for target.
+CMakeFiles/icp_gnm_point_to_point.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/icp_gnm_point_to_point.dir/build.make CMakeFiles/icp_gnm_point_to_point.dir/clean
+.PHONY : CMakeFiles/icp_gnm_point_to_point.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

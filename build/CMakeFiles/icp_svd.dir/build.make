@@ -86,14 +86,46 @@ CMakeFiles/icp_svd.dir/src/icp_svd.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/icp_svd.dir/src/icp_svd.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/geniusdegenerate/aBunchOfSlam/src/icp_svd.cpp -o CMakeFiles/icp_svd.dir/src/icp_svd.cpp.s
 
+CMakeFiles/icp_svd.dir/src/eigen.cpp.o: CMakeFiles/icp_svd.dir/flags.make
+CMakeFiles/icp_svd.dir/src/eigen.cpp.o: /home/geniusdegenerate/aBunchOfSlam/src/eigen.cpp
+CMakeFiles/icp_svd.dir/src/eigen.cpp.o: CMakeFiles/icp_svd.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/geniusdegenerate/aBunchOfSlam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/icp_svd.dir/src/eigen.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/icp_svd.dir/src/eigen.cpp.o -MF CMakeFiles/icp_svd.dir/src/eigen.cpp.o.d -o CMakeFiles/icp_svd.dir/src/eigen.cpp.o -c /home/geniusdegenerate/aBunchOfSlam/src/eigen.cpp
+
+CMakeFiles/icp_svd.dir/src/eigen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/icp_svd.dir/src/eigen.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/geniusdegenerate/aBunchOfSlam/src/eigen.cpp > CMakeFiles/icp_svd.dir/src/eigen.cpp.i
+
+CMakeFiles/icp_svd.dir/src/eigen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/icp_svd.dir/src/eigen.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/geniusdegenerate/aBunchOfSlam/src/eigen.cpp -o CMakeFiles/icp_svd.dir/src/eigen.cpp.s
+
+CMakeFiles/icp_svd.dir/src/pangolin.cpp.o: CMakeFiles/icp_svd.dir/flags.make
+CMakeFiles/icp_svd.dir/src/pangolin.cpp.o: /home/geniusdegenerate/aBunchOfSlam/src/pangolin.cpp
+CMakeFiles/icp_svd.dir/src/pangolin.cpp.o: CMakeFiles/icp_svd.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/geniusdegenerate/aBunchOfSlam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/icp_svd.dir/src/pangolin.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/icp_svd.dir/src/pangolin.cpp.o -MF CMakeFiles/icp_svd.dir/src/pangolin.cpp.o.d -o CMakeFiles/icp_svd.dir/src/pangolin.cpp.o -c /home/geniusdegenerate/aBunchOfSlam/src/pangolin.cpp
+
+CMakeFiles/icp_svd.dir/src/pangolin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/icp_svd.dir/src/pangolin.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/geniusdegenerate/aBunchOfSlam/src/pangolin.cpp > CMakeFiles/icp_svd.dir/src/pangolin.cpp.i
+
+CMakeFiles/icp_svd.dir/src/pangolin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/icp_svd.dir/src/pangolin.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/geniusdegenerate/aBunchOfSlam/src/pangolin.cpp -o CMakeFiles/icp_svd.dir/src/pangolin.cpp.s
+
 # Object files for target icp_svd
 icp_svd_OBJECTS = \
-"CMakeFiles/icp_svd.dir/src/icp_svd.cpp.o"
+"CMakeFiles/icp_svd.dir/src/icp_svd.cpp.o" \
+"CMakeFiles/icp_svd.dir/src/eigen.cpp.o" \
+"CMakeFiles/icp_svd.dir/src/pangolin.cpp.o"
 
 # External object files for target icp_svd
 icp_svd_EXTERNAL_OBJECTS =
 
 /home/geniusdegenerate/aBunchOfSlam/scripts/icp_svd: CMakeFiles/icp_svd.dir/src/icp_svd.cpp.o
+/home/geniusdegenerate/aBunchOfSlam/scripts/icp_svd: CMakeFiles/icp_svd.dir/src/eigen.cpp.o
+/home/geniusdegenerate/aBunchOfSlam/scripts/icp_svd: CMakeFiles/icp_svd.dir/src/pangolin.cpp.o
 /home/geniusdegenerate/aBunchOfSlam/scripts/icp_svd: CMakeFiles/icp_svd.dir/build.make
 /home/geniusdegenerate/aBunchOfSlam/scripts/icp_svd: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 /home/geniusdegenerate/aBunchOfSlam/scripts/icp_svd: /usr/local/lib/libpango_glgeometry.so.0.9.2
@@ -115,7 +147,7 @@ icp_svd_EXTERNAL_OBJECTS =
 /home/geniusdegenerate/aBunchOfSlam/scripts/icp_svd: /usr/local/lib/libpango_packetstream.so.0.9.2
 /home/geniusdegenerate/aBunchOfSlam/scripts/icp_svd: /usr/local/lib/libpango_core.so.0.9.2
 /home/geniusdegenerate/aBunchOfSlam/scripts/icp_svd: CMakeFiles/icp_svd.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/geniusdegenerate/aBunchOfSlam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/geniusdegenerate/aBunchOfSlam/scripts/icp_svd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/geniusdegenerate/aBunchOfSlam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable /home/geniusdegenerate/aBunchOfSlam/scripts/icp_svd"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/icp_svd.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
